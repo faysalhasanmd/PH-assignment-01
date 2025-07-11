@@ -1,3 +1,6 @@
+body {
+  background-color: #f5f8ff;
+}
 /* shared style */
 .btn {
   background-color: #4e47ff;
@@ -49,10 +52,8 @@ nav {
   /* background-color: aqua; */
   margin: 0 auto;
 }
-.nav-img {
-  width: 200px;
-  height: 140px;
-  border-radius: 20px;
+.nav-head {
+  font-size: 34px;
 }
 /* banner style */
 .banner {
@@ -68,6 +69,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 116px;
 }
 .action-img {
   width: 403px;
@@ -169,7 +171,6 @@ nav {
   display: flex;
   gap: 100px;
   justify-content: space-around;
-  background-color: #fbfbfc;
   padding: 60px;
   align-items: center;
 }
@@ -223,4 +224,19 @@ ul,
 li {
   display: flex;
   gap: 27px;
+}
+.footer-head {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+.divv {
+  background-color: #ededff;
+  width: 100%;
+  height: 428px;
+  display: flex;
+  align-items: center;
 }
