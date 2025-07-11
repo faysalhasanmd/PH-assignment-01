@@ -26,6 +26,7 @@ body {
   font-size: 55px;
   font-weight: bold;
   color: #4e47ff;
+  padding: ;
 }
 .rate {
   font-family: "Open Sans", sans-serif;
@@ -86,7 +87,7 @@ nav {
 }
 .user-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .user-addjust {
   background-color: #e6e5ff;
